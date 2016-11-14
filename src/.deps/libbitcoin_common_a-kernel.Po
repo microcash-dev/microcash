@@ -1,27 +1,27 @@
 libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/assign/list_of.hpp \
  /usr/include/boost/assign/assignment_exception.hpp \
- /usr/include/c++/4.8/exception \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/c++/4.9/exception \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h \
- /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h \
+ /usr/include/c++/4.9/bits/atomic_lockfree_defines.h \
  /usr/include/boost/range/iterator_range.hpp \
  /usr/include/boost/range/iterator_range_core.hpp \
  /usr/include/boost/config.hpp /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/select_compiler_config.hpp \
  /usr/include/boost/config/compiler/gcc.hpp \
  /usr/include/boost/config/select_stdlib_config.hpp \
- /usr/include/c++/4.8/cstddef \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
+ /usr/include/c++/4.9/cstddef \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
  /usr/include/boost/config/no_tr1/utility.hpp \
- /usr/include/c++/4.8/utility /usr/include/c++/4.8/bits/stl_relops.h \
- /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
- /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.9/utility /usr/include/c++/4.9/bits/stl_relops.h \
+ /usr/include/c++/4.9/bits/stl_pair.h /usr/include/c++/4.9/bits/move.h \
+ /usr/include/c++/4.9/bits/concept_check.h \
  /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -31,7 +31,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/boost/config/select_platform_config.hpp \
  /usr/include/boost/config/platform/linux.hpp \
- /usr/include/c++/4.8/cstdlib /usr/include/stdlib.h \
+ /usr/include/c++/4.9/cstdlib /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -51,66 +51,68 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/config/posix_features.hpp \
  /usr/include/boost/config/suffix.hpp \
  /usr/include/boost/detail/workaround.hpp /usr/include/boost/assert.hpp \
- /usr/include/assert.h /usr/include/c++/4.8/iostream \
- /usr/include/c++/4.8/ostream /usr/include/c++/4.8/ios \
- /usr/include/c++/4.8/iosfwd /usr/include/c++/4.8/bits/stringfwd.h \
- /usr/include/c++/4.8/bits/memoryfwd.h \
- /usr/include/c++/4.8/bits/postypes.h /usr/include/c++/4.8/cwchar \
+ /usr/include/assert.h /usr/include/c++/4.9/iostream \
+ /usr/include/c++/4.9/ostream /usr/include/c++/4.9/ios \
+ /usr/include/c++/4.9/iosfwd /usr/include/c++/4.9/bits/stringfwd.h \
+ /usr/include/c++/4.9/bits/memoryfwd.h \
+ /usr/include/c++/4.9/bits/postypes.h /usr/include/c++/4.9/cwchar \
  /usr/include/wchar.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
- /usr/include/c++/4.8/bits/char_traits.h \
- /usr/include/c++/4.8/bits/stl_algobase.h \
- /usr/include/c++/4.8/bits/functexcept.h \
- /usr/include/c++/4.8/bits/exception_defines.h \
- /usr/include/c++/4.8/bits/cpp_type_traits.h \
- /usr/include/c++/4.8/ext/type_traits.h \
- /usr/include/c++/4.8/ext/numeric_traits.h \
- /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
- /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/4.8/debug/debug.h \
- /usr/include/c++/4.8/bits/stl_iterator.h \
- /usr/include/c++/4.8/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h \
- /usr/include/c++/4.8/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/4.8/cctype \
- /usr/include/ctype.h /usr/include/c++/4.8/bits/ios_base.h \
- /usr/include/c++/4.8/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h \
+ /usr/include/c++/4.9/bits/char_traits.h \
+ /usr/include/c++/4.9/bits/stl_algobase.h \
+ /usr/include/c++/4.9/bits/functexcept.h \
+ /usr/include/c++/4.9/bits/exception_defines.h \
+ /usr/include/c++/4.9/bits/cpp_type_traits.h \
+ /usr/include/c++/4.9/ext/type_traits.h \
+ /usr/include/c++/4.9/ext/numeric_traits.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.9/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.9/debug/debug.h \
+ /usr/include/c++/4.9/bits/stl_iterator.h \
+ /usr/include/c++/4.9/bits/ptr_traits.h \
+ /usr/include/c++/4.9/bits/predefined_ops.h \
+ /usr/include/c++/4.9/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++locale.h \
+ /usr/include/c++/4.9/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/4.9/cctype \
+ /usr/include/ctype.h /usr/include/c++/4.9/bits/ios_base.h \
+ /usr/include/c++/4.9/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h \
- /usr/include/c++/4.8/bits/locale_classes.h /usr/include/c++/4.8/string \
- /usr/include/c++/4.8/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h \
- /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
- /usr/include/c++/4.8/bits/ostream_insert.h \
- /usr/include/c++/4.8/bits/cxxabi_forced.h \
- /usr/include/c++/4.8/bits/stl_function.h \
- /usr/include/c++/4.8/backward/binders.h \
- /usr/include/c++/4.8/bits/range_access.h \
- /usr/include/c++/4.8/bits/basic_string.h \
- /usr/include/c++/4.8/bits/basic_string.tcc \
- /usr/include/c++/4.8/bits/locale_classes.tcc \
- /usr/include/c++/4.8/streambuf /usr/include/c++/4.8/bits/streambuf.tcc \
- /usr/include/c++/4.8/bits/basic_ios.h \
- /usr/include/c++/4.8/bits/locale_facets.h /usr/include/c++/4.8/cwctype \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h \
+ /usr/include/c++/4.9/bits/locale_classes.h /usr/include/c++/4.9/string \
+ /usr/include/c++/4.9/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/c++allocator.h \
+ /usr/include/c++/4.9/ext/new_allocator.h /usr/include/c++/4.9/new \
+ /usr/include/c++/4.9/bits/ostream_insert.h \
+ /usr/include/c++/4.9/bits/cxxabi_forced.h \
+ /usr/include/c++/4.9/bits/stl_function.h \
+ /usr/include/c++/4.9/backward/binders.h \
+ /usr/include/c++/4.9/bits/range_access.h \
+ /usr/include/c++/4.9/bits/basic_string.h \
+ /usr/include/c++/4.9/bits/basic_string.tcc \
+ /usr/include/c++/4.9/bits/locale_classes.tcc \
+ /usr/include/c++/4.9/streambuf /usr/include/c++/4.9/bits/streambuf.tcc \
+ /usr/include/c++/4.9/bits/basic_ios.h \
+ /usr/include/c++/4.9/bits/locale_facets.h /usr/include/c++/4.9/cwctype \
  /usr/include/wctype.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h \
- /usr/include/c++/4.8/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h \
- /usr/include/c++/4.8/bits/locale_facets.tcc \
- /usr/include/c++/4.8/bits/basic_ios.tcc \
- /usr/include/c++/4.8/bits/ostream.tcc /usr/include/c++/4.8/istream \
- /usr/include/c++/4.8/bits/istream.tcc \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_base.h \
+ /usr/include/c++/4.9/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_inline.h \
+ /usr/include/c++/4.9/bits/locale_facets.tcc \
+ /usr/include/c++/4.9/bits/basic_ios.tcc \
+ /usr/include/c++/4.9/bits/ostream.tcc /usr/include/c++/4.9/istream \
+ /usr/include/c++/4.9/bits/istream.tcc \
  /usr/include/boost/current_function.hpp \
  /usr/include/boost/iterator/iterator_traits.hpp \
- /usr/include/boost/detail/iterator.hpp /usr/include/c++/4.8/iterator \
- /usr/include/c++/4.8/bits/stream_iterator.h \
+ /usr/include/boost/detail/iterator.hpp /usr/include/c++/4.9/iterator \
+ /usr/include/c++/4.9/bits/stream_iterator.h \
  /usr/include/boost/iterator/iterator_facade.hpp \
  /usr/include/boost/iterator.hpp \
  /usr/include/boost/iterator/interoperable.hpp \
@@ -348,13 +350,13 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/preprocessor/seq/enum.hpp \
  /usr/include/boost/concept/detail/concept_undef.hpp \
  /usr/include/boost/iterator/iterator_concepts.hpp \
- /usr/include/boost/limits.hpp /usr/include/c++/4.8/limits \
- /usr/include/c++/4.8/algorithm /usr/include/c++/4.8/bits/stl_algo.h \
- /usr/include/c++/4.8/bits/algorithmfwd.h \
- /usr/include/c++/4.8/bits/stl_heap.h \
- /usr/include/c++/4.8/bits/stl_tempbuf.h \
- /usr/include/c++/4.8/bits/stl_construct.h \
- /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/boost/limits.hpp /usr/include/c++/4.9/limits \
+ /usr/include/c++/4.9/algorithm /usr/include/c++/4.9/bits/stl_algo.h \
+ /usr/include/c++/4.9/bits/algorithmfwd.h \
+ /usr/include/c++/4.9/bits/stl_heap.h \
+ /usr/include/c++/4.9/bits/stl_tempbuf.h \
+ /usr/include/c++/4.9/bits/stl_construct.h \
+ /usr/include/c++/4.9/ext/alloc_traits.h \
  /usr/include/boost/range/value_type.hpp \
  /usr/include/boost/range/detail/misc_concept.hpp \
  /usr/include/boost/range/detail/safe_bool.hpp \
@@ -368,35 +370,36 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/utility/swap.hpp \
  /usr/include/boost/type_traits/decay.hpp \
  /usr/include/boost/type_traits/remove_bounds.hpp \
- /usr/include/c++/4.8/deque /usr/include/c++/4.8/bits/stl_uninitialized.h \
- /usr/include/c++/4.8/bits/stl_deque.h \
- /usr/include/c++/4.8/bits/deque.tcc \
+ /usr/include/c++/4.9/deque /usr/include/c++/4.9/bits/stl_uninitialized.h \
+ /usr/include/c++/4.9/bits/stl_deque.h \
+ /usr/include/c++/4.9/bits/deque.tcc \
  /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp \
  /usr/include/boost/preprocessor/iteration/local.hpp \
  /usr/include/boost/preprocessor/slot/slot.hpp \
  /usr/include/boost/preprocessor/slot/detail/def.hpp \
  /usr/include/boost/preprocessor/iteration/detail/local.hpp kernel.h \
- main.h bignum.h /usr/include/c++/4.8/stdexcept \
- /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_vector.h \
- /usr/include/c++/4.8/bits/stl_bvector.h \
- /usr/include/c++/4.8/bits/vector.tcc /usr/include/openssl/bn.h \
+ main.h bignum.h /usr/include/c++/4.9/stdexcept \
+ /usr/include/c++/4.9/vector /usr/include/c++/4.9/bits/stl_vector.h \
+ /usr/include/c++/4.9/bits/stl_bvector.h \
+ /usr/include/c++/4.9/bits/vector.tcc /usr/include/openssl/bn.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/openssl/e_os2.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h /usr/include/libio.h \
- /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/_G_config.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/openssl/ossl_typ.h /usr/include/openssl/crypto.h \
  /usr/include/openssl/stack.h /usr/include/openssl/safestack.h \
  /usr/include/openssl/opensslv.h /usr/include/openssl/symhacks.h util.h \
- uint256.h /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/sys/resource.h \
+ uint256.h /usr/include/x86_64-linux-gnu/sys/resource.h \
  /usr/include/x86_64-linux-gnu/bits/resource.h \
  /usr/include/x86_64-linux-gnu/sys/time.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
@@ -419,7 +422,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/net/if.h \
  /usr/include/netinet/in.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
  /usr/include/ifaddrs.h /usr/include/netdb.h /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/siginfo.h \
@@ -427,9 +430,9 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/c++/4.8/map /usr/include/c++/4.8/bits/stl_tree.h \
- /usr/include/c++/4.8/bits/stl_map.h \
- /usr/include/c++/4.8/bits/stl_multimap.h /usr/include/boost/thread.hpp \
+ /usr/include/c++/4.9/map /usr/include/c++/4.9/bits/stl_tree.h \
+ /usr/include/c++/4.9/bits/stl_map.h \
+ /usr/include/c++/4.9/bits/stl_multimap.h /usr/include/boost/thread.hpp \
  /usr/include/boost/thread/thread.hpp \
  /usr/include/boost/thread/thread_only.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
@@ -438,13 +441,13 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/detail/config.hpp \
  /usr/include/boost/config/auto_link.hpp \
  /usr/include/boost/thread/exceptions.hpp \
- /usr/include/boost/system/system_error.hpp /usr/include/c++/4.8/cassert \
+ /usr/include/boost/system/system_error.hpp /usr/include/c++/4.9/cassert \
  /usr/include/boost/system/error_code.hpp \
  /usr/include/boost/system/config.hpp \
  /usr/include/boost/system/api_config.hpp /usr/include/boost/cstdint.hpp \
  /usr/include/boost/operators.hpp /usr/include/boost/noncopyable.hpp \
- /usr/include/c++/4.8/functional /usr/include/boost/cerrno.hpp \
- /usr/include/c++/4.8/cerrno /usr/include/boost/config/abi_prefix.hpp \
+ /usr/include/c++/4.9/functional /usr/include/boost/cerrno.hpp \
+ /usr/include/c++/4.9/cerrno /usr/include/boost/config/abi_prefix.hpp \
  /usr/include/boost/config/abi_suffix.hpp \
  /usr/include/boost/thread/lock_guard.hpp \
  /usr/include/boost/thread/detail/delete.hpp \
@@ -471,7 +474,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/lockable_traits.hpp \
  /usr/include/boost/thread/thread_time.hpp \
  /usr/include/boost/date_time/time_clock.hpp \
- /usr/include/boost/date_time/c_time.hpp /usr/include/c++/4.8/ctime \
+ /usr/include/boost/date_time/c_time.hpp /usr/include/c++/4.9/ctime \
  /usr/include/boost/throw_exception.hpp \
  /usr/include/boost/exception/detail/attribute_noreturn.hpp \
  /usr/include/boost/exception/exception.hpp \
@@ -479,16 +482,16 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/date_time/locale_config.hpp \
  /usr/include/boost/shared_ptr.hpp \
  /usr/include/boost/smart_ptr/shared_ptr.hpp \
- /usr/include/boost/config/no_tr1/memory.hpp /usr/include/c++/4.8/memory \
- /usr/include/c++/4.8/bits/stl_raw_storage_iter.h \
- /usr/include/c++/4.8/backward/auto_ptr.h \
+ /usr/include/boost/config/no_tr1/memory.hpp /usr/include/c++/4.9/memory \
+ /usr/include/c++/4.9/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/4.9/backward/auto_ptr.h \
  /usr/include/boost/checked_delete.hpp \
  /usr/include/boost/smart_ptr/detail/shared_count.hpp \
  /usr/include/boost/smart_ptr/bad_weak_ptr.hpp \
  /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp \
  /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp \
  /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
- /usr/include/boost/detail/sp_typeinfo.hpp /usr/include/c++/4.8/typeinfo \
+ /usr/include/boost/detail/sp_typeinfo.hpp /usr/include/c++/4.9/typeinfo \
  /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
@@ -504,7 +507,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/date_time/posix_time/ptime.hpp \
  /usr/include/boost/date_time/posix_time/posix_time_system.hpp \
  /usr/include/boost/date_time/posix_time/posix_time_config.hpp \
- /usr/include/boost/config/no_tr1/cmath.hpp /usr/include/c++/4.8/cmath \
+ /usr/include/boost/config/no_tr1/cmath.hpp /usr/include/c++/4.9/cmath \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/huge_val.h \
  /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
  /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
@@ -543,7 +546,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/date_time/adjust_functors.hpp \
  /usr/include/boost/date_time/wrapping_int.hpp \
  /usr/include/boost/date_time/date_generators.hpp \
- /usr/include/c++/4.8/sstream /usr/include/c++/4.8/bits/sstream.tcc \
+ /usr/include/c++/4.9/sstream /usr/include/c++/4.9/bits/sstream.tcc \
  /usr/include/boost/date_time/date_clock_device.hpp \
  /usr/include/boost/date_time/date_iterator.hpp \
  /usr/include/boost/date_time/time_system_split.hpp \
@@ -558,7 +561,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/chrono/duration.hpp \
  /usr/include/boost/chrono/config.hpp \
  /usr/include/boost/chrono/detail/static_assert.hpp \
- /usr/include/c++/4.8/climits /usr/include/boost/mpl/logical.hpp \
+ /usr/include/c++/4.9/climits /usr/include/boost/mpl/logical.hpp \
  /usr/include/boost/ratio/ratio.hpp /usr/include/boost/ratio/config.hpp \
  /usr/include/boost/ratio/detail/mpl/abs.hpp \
  /usr/include/boost/ratio/detail/mpl/sign.hpp \
@@ -579,7 +582,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/pthread/mutex.hpp \
  /usr/include/boost/thread/xtime.hpp \
  /usr/include/boost/date_time/posix_time/conversion.hpp \
- /usr/include/c++/4.8/cstring \
+ /usr/include/c++/4.9/cstring \
  /usr/include/boost/date_time/gregorian/conversion.hpp \
  /usr/include/boost/thread/pthread/timespec.hpp \
  /usr/include/boost/thread/pthread/pthread_mutex_scoped_lock.hpp \
@@ -627,8 +630,8 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/detail/make_tuple_indices.hpp \
  /usr/include/boost/thread/detail/invoke.hpp \
  /usr/include/boost/thread/detail/is_convertible.hpp \
- /usr/include/c++/4.8/list /usr/include/c++/4.8/bits/stl_list.h \
- /usr/include/c++/4.8/bits/list.tcc /usr/include/boost/bind.hpp \
+ /usr/include/c++/4.9/list /usr/include/c++/4.9/bits/stl_list.h \
+ /usr/include/c++/4.9/bits/list.tcc /usr/include/boost/bind.hpp \
  /usr/include/boost/bind/bind.hpp /usr/include/boost/mem_fn.hpp \
  /usr/include/boost/bind/mem_fn.hpp /usr/include/boost/get_pointer.hpp \
  /usr/include/boost/bind/mem_fn_template.hpp \
@@ -641,12 +644,12 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/io/ios_state.hpp /usr/include/boost/io_fwd.hpp \
- /usr/include/c++/4.8/locale \
- /usr/include/c++/4.8/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/4.8/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/4.8/bits/codecvt.h \
- /usr/include/c++/4.8/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/4.9/locale \
+ /usr/include/c++/4.9/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/4.9/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/4.9/bits/codecvt.h \
+ /usr/include/c++/4.9/bits/locale_facets_nonio.tcc \
  /usr/include/boost/functional/hash.hpp \
  /usr/include/boost/functional/hash/hash.hpp \
  /usr/include/boost/functional/hash/hash_fwd.hpp \
@@ -656,10 +659,10 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/integer/static_log2.hpp \
  /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/functional/hash/extensions.hpp \
- /usr/include/boost/detail/container_fwd.hpp /usr/include/c++/4.8/set \
- /usr/include/c++/4.8/bits/stl_set.h \
- /usr/include/c++/4.8/bits/stl_multiset.h /usr/include/c++/4.8/bitset \
- /usr/include/c++/4.8/complex \
+ /usr/include/boost/detail/container_fwd.hpp /usr/include/c++/4.9/set \
+ /usr/include/c++/4.9/bits/stl_set.h \
+ /usr/include/c++/4.9/bits/stl_multiset.h /usr/include/c++/4.9/bitset \
+ /usr/include/c++/4.9/complex \
  /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
  /usr/include/boost/thread/detail/thread_interruption.hpp \
  /usr/include/boost/thread/v2/thread.hpp \
@@ -712,7 +715,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/exception/detail/is_output_streamable.hpp \
  /usr/include/boost/exception/detail/object_hex_dump.hpp \
  /usr/include/boost/exception/detail/type_info.hpp \
- /usr/include/c++/4.8/iomanip \
+ /usr/include/c++/4.9/iomanip \
  /usr/include/boost/exception/detail/error_info_impl.hpp \
  /usr/include/boost/exception/diagnostic_information.hpp \
  /usr/include/boost/exception/get_error_info.hpp \
@@ -733,11 +736,11 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/io/detail/quoted_manip.hpp \
  /usr/include/boost/functional/hash_fwd.hpp \
  /usr/include/boost/filesystem/operations.hpp \
- /usr/include/boost/detail/bitmask.hpp /usr/include/c++/4.8/stack \
- /usr/include/c++/4.8/bits/stl_stack.h \
+ /usr/include/boost/detail/bitmask.hpp /usr/include/c++/4.9/stack \
+ /usr/include/c++/4.9/bits/stl_stack.h \
  /usr/include/boost/filesystem/convenience.hpp /usr/include/openssl/sha.h \
  /usr/include/openssl/ripemd.h netbase.h config/microcash-config.h \
- serialize.h /usr/include/c++/4.8/cstdio \
+ serialize.h /usr/include/c++/4.9/cstdio \
  /usr/include/boost/tuple/tuple_comparison.hpp \
  /usr/include/boost/tuple/tuple_io.hpp allocators.h version.h \
  clientversion.h sync.h net.h /usr/include/boost/array.hpp \
@@ -950,11 +953,11 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/boost/assign/assignment_exception.hpp:
 
-/usr/include/c++/4.8/exception:
+/usr/include/c++/4.9/exception:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/os_defines.h:
 
 /usr/include/features.h:
 
@@ -966,9 +969,9 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/cpu_defines.h:
 
-/usr/include/c++/4.8/bits/atomic_lockfree_defines.h:
+/usr/include/c++/4.9/bits/atomic_lockfree_defines.h:
 
 /usr/include/boost/range/iterator_range.hpp:
 
@@ -984,21 +987,21 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/boost/config/select_stdlib_config.hpp:
 
-/usr/include/c++/4.8/cstddef:
+/usr/include/c++/4.9/cstddef:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
 
 /usr/include/boost/config/no_tr1/utility.hpp:
 
-/usr/include/c++/4.8/utility:
+/usr/include/c++/4.9/utility:
 
-/usr/include/c++/4.8/bits/stl_relops.h:
+/usr/include/c++/4.9/bits/stl_relops.h:
 
-/usr/include/c++/4.8/bits/stl_pair.h:
+/usr/include/c++/4.9/bits/stl_pair.h:
 
-/usr/include/c++/4.8/bits/move.h:
+/usr/include/c++/4.9/bits/move.h:
 
-/usr/include/c++/4.8/bits/concept_check.h:
+/usr/include/c++/4.9/bits/concept_check.h:
 
 /usr/include/boost/config/stdlib/libstdcpp3.hpp:
 
@@ -1022,7 +1025,7 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/boost/config/platform/linux.hpp:
 
-/usr/include/c++/4.8/cstdlib:
+/usr/include/c++/4.9/cstdlib:
 
 /usr/include/stdlib.h:
 
@@ -1076,75 +1079,79 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/assert.h:
 
-/usr/include/c++/4.8/iostream:
+/usr/include/c++/4.9/iostream:
 
-/usr/include/c++/4.8/ostream:
+/usr/include/c++/4.9/ostream:
 
-/usr/include/c++/4.8/ios:
+/usr/include/c++/4.9/ios:
 
-/usr/include/c++/4.8/iosfwd:
+/usr/include/c++/4.9/iosfwd:
 
-/usr/include/c++/4.8/bits/stringfwd.h:
+/usr/include/c++/4.9/bits/stringfwd.h:
 
-/usr/include/c++/4.8/bits/memoryfwd.h:
+/usr/include/c++/4.9/bits/memoryfwd.h:
 
-/usr/include/c++/4.8/bits/postypes.h:
+/usr/include/c++/4.9/bits/postypes.h:
 
-/usr/include/c++/4.8/cwchar:
+/usr/include/c++/4.9/cwchar:
 
 /usr/include/wchar.h:
 
 /usr/include/stdio.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdarg.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-/usr/include/c++/4.8/bits/char_traits.h:
+/usr/include/c++/4.9/bits/char_traits.h:
 
-/usr/include/c++/4.8/bits/stl_algobase.h:
+/usr/include/c++/4.9/bits/stl_algobase.h:
 
-/usr/include/c++/4.8/bits/functexcept.h:
+/usr/include/c++/4.9/bits/functexcept.h:
 
-/usr/include/c++/4.8/bits/exception_defines.h:
+/usr/include/c++/4.9/bits/exception_defines.h:
 
-/usr/include/c++/4.8/bits/cpp_type_traits.h:
+/usr/include/c++/4.9/bits/cpp_type_traits.h:
 
-/usr/include/c++/4.8/ext/type_traits.h:
+/usr/include/c++/4.9/ext/type_traits.h:
 
-/usr/include/c++/4.8/ext/numeric_traits.h:
+/usr/include/c++/4.9/ext/numeric_traits.h:
 
-/usr/include/c++/4.8/bits/stl_iterator_base_types.h:
+/usr/include/c++/4.9/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/4.8/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/4.9/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/4.8/debug/debug.h:
+/usr/include/c++/4.9/debug/debug.h:
 
-/usr/include/c++/4.8/bits/stl_iterator.h:
+/usr/include/c++/4.9/bits/stl_iterator.h:
 
-/usr/include/c++/4.8/bits/localefwd.h:
+/usr/include/c++/4.9/bits/ptr_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h:
+/usr/include/c++/4.9/bits/predefined_ops.h:
 
-/usr/include/c++/4.8/clocale:
+/usr/include/c++/4.9/bits/localefwd.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++locale.h:
+
+/usr/include/c++/4.9/clocale:
 
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/c++/4.8/cctype:
+/usr/include/c++/4.9/cctype:
 
 /usr/include/ctype.h:
 
-/usr/include/c++/4.8/bits/ios_base.h:
+/usr/include/c++/4.9/bits/ios_base.h:
 
-/usr/include/c++/4.8/ext/atomicity.h:
+/usr/include/c++/4.9/ext/atomicity.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/gthr-default.h:
 
 /usr/include/pthread.h:
 
@@ -1156,63 +1163,63 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h:
 
-/usr/include/c++/4.8/bits/locale_classes.h:
+/usr/include/c++/4.9/bits/locale_classes.h:
 
-/usr/include/c++/4.8/string:
+/usr/include/c++/4.9/string:
 
-/usr/include/c++/4.8/bits/allocator.h:
+/usr/include/c++/4.9/bits/allocator.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++allocator.h:
 
-/usr/include/c++/4.8/ext/new_allocator.h:
+/usr/include/c++/4.9/ext/new_allocator.h:
 
-/usr/include/c++/4.8/new:
+/usr/include/c++/4.9/new:
 
-/usr/include/c++/4.8/bits/ostream_insert.h:
+/usr/include/c++/4.9/bits/ostream_insert.h:
 
-/usr/include/c++/4.8/bits/cxxabi_forced.h:
+/usr/include/c++/4.9/bits/cxxabi_forced.h:
 
-/usr/include/c++/4.8/bits/stl_function.h:
+/usr/include/c++/4.9/bits/stl_function.h:
 
-/usr/include/c++/4.8/backward/binders.h:
+/usr/include/c++/4.9/backward/binders.h:
 
-/usr/include/c++/4.8/bits/range_access.h:
+/usr/include/c++/4.9/bits/range_access.h:
 
-/usr/include/c++/4.8/bits/basic_string.h:
+/usr/include/c++/4.9/bits/basic_string.h:
 
-/usr/include/c++/4.8/bits/basic_string.tcc:
+/usr/include/c++/4.9/bits/basic_string.tcc:
 
-/usr/include/c++/4.8/bits/locale_classes.tcc:
+/usr/include/c++/4.9/bits/locale_classes.tcc:
 
-/usr/include/c++/4.8/streambuf:
+/usr/include/c++/4.9/streambuf:
 
-/usr/include/c++/4.8/bits/streambuf.tcc:
+/usr/include/c++/4.9/bits/streambuf.tcc:
 
-/usr/include/c++/4.8/bits/basic_ios.h:
+/usr/include/c++/4.9/bits/basic_ios.h:
 
-/usr/include/c++/4.8/bits/locale_facets.h:
+/usr/include/c++/4.9/bits/locale_facets.h:
 
-/usr/include/c++/4.8/cwctype:
+/usr/include/c++/4.9/cwctype:
 
 /usr/include/wctype.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_base.h:
 
-/usr/include/c++/4.8/bits/streambuf_iterator.h:
+/usr/include/c++/4.9/bits/streambuf_iterator.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/ctype_inline.h:
 
-/usr/include/c++/4.8/bits/locale_facets.tcc:
+/usr/include/c++/4.9/bits/locale_facets.tcc:
 
-/usr/include/c++/4.8/bits/basic_ios.tcc:
+/usr/include/c++/4.9/bits/basic_ios.tcc:
 
-/usr/include/c++/4.8/bits/ostream.tcc:
+/usr/include/c++/4.9/bits/ostream.tcc:
 
-/usr/include/c++/4.8/istream:
+/usr/include/c++/4.9/istream:
 
-/usr/include/c++/4.8/bits/istream.tcc:
+/usr/include/c++/4.9/bits/istream.tcc:
 
 /usr/include/boost/current_function.hpp:
 
@@ -1220,9 +1227,9 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/boost/detail/iterator.hpp:
 
-/usr/include/c++/4.8/iterator:
+/usr/include/c++/4.9/iterator:
 
-/usr/include/c++/4.8/bits/stream_iterator.h:
+/usr/include/c++/4.9/bits/stream_iterator.h:
 
 /usr/include/boost/iterator/iterator_facade.hpp:
 
@@ -1730,21 +1737,21 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/boost/limits.hpp:
 
-/usr/include/c++/4.8/limits:
+/usr/include/c++/4.9/limits:
 
-/usr/include/c++/4.8/algorithm:
+/usr/include/c++/4.9/algorithm:
 
-/usr/include/c++/4.8/bits/stl_algo.h:
+/usr/include/c++/4.9/bits/stl_algo.h:
 
-/usr/include/c++/4.8/bits/algorithmfwd.h:
+/usr/include/c++/4.9/bits/algorithmfwd.h:
 
-/usr/include/c++/4.8/bits/stl_heap.h:
+/usr/include/c++/4.9/bits/stl_heap.h:
 
-/usr/include/c++/4.8/bits/stl_tempbuf.h:
+/usr/include/c++/4.9/bits/stl_tempbuf.h:
 
-/usr/include/c++/4.8/bits/stl_construct.h:
+/usr/include/c++/4.9/bits/stl_construct.h:
 
-/usr/include/c++/4.8/ext/alloc_traits.h:
+/usr/include/c++/4.9/ext/alloc_traits.h:
 
 /usr/include/boost/range/value_type.hpp:
 
@@ -1774,13 +1781,13 @@ libbitcoin_common_a-kernel.o: kernel.cpp /usr/include/stdc-predef.h \
 
 /usr/include/boost/type_traits/remove_bounds.hpp:
 
-/usr/include/c++/4.8/deque:
+/usr/include/c++/4.9/deque:
 
-/usr/include/c++/4.8/bits/stl_uninitialized.h:
+/usr/include/c++/4.9/bits/stl_uninitialized.h:
 
-/usr/include/c++/4.8/bits/stl_deque.h:
+/usr/include/c++/4.9/bits/stl_deque.h:
 
-/usr/include/c++/4.8/bits/deque.tcc:
+/usr/include/c++/4.9/bits/deque.tcc:
 
 /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
 
@@ -1798,17 +1805,35 @@ main.h:
 
 bignum.h:
 
-/usr/include/c++/4.8/stdexcept:
+/usr/include/c++/4.9/stdexcept:
 
-/usr/include/c++/4.8/vector:
+/usr/include/c++/4.9/vector:
 
-/usr/include/c++/4.8/bits/stl_vector.h:
+/usr/include/c++/4.9/bits/stl_vector.h:
 
-/usr/include/c++/4.8/bits/stl_bvector.h:
+/usr/include/c++/4.9/bits/stl_bvector.h:
 
-/usr/include/c++/4.8/bits/vector.tcc:
+/usr/include/c++/4.9/bits/vector.tcc:
 
 /usr/include/openssl/bn.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/openssl/e_os2.h:
 
@@ -1817,8 +1842,6 @@ bignum.h:
 /usr/include/libio.h:
 
 /usr/include/_G_config.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
@@ -1841,22 +1864,6 @@ bignum.h:
 util.h:
 
 uint256.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h:
-
-/usr/include/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/sys/resource.h:
 
@@ -1910,7 +1917,7 @@ compat.h:
 
 /usr/include/netinet/in.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -1940,13 +1947,13 @@ compat.h:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/4.8/map:
+/usr/include/c++/4.9/map:
 
-/usr/include/c++/4.8/bits/stl_tree.h:
+/usr/include/c++/4.9/bits/stl_tree.h:
 
-/usr/include/c++/4.8/bits/stl_map.h:
+/usr/include/c++/4.9/bits/stl_map.h:
 
-/usr/include/c++/4.8/bits/stl_multimap.h:
+/usr/include/c++/4.9/bits/stl_multimap.h:
 
 /usr/include/boost/thread.hpp:
 
@@ -1968,7 +1975,7 @@ compat.h:
 
 /usr/include/boost/system/system_error.hpp:
 
-/usr/include/c++/4.8/cassert:
+/usr/include/c++/4.9/cassert:
 
 /usr/include/boost/system/error_code.hpp:
 
@@ -1982,11 +1989,11 @@ compat.h:
 
 /usr/include/boost/noncopyable.hpp:
 
-/usr/include/c++/4.8/functional:
+/usr/include/c++/4.9/functional:
 
 /usr/include/boost/cerrno.hpp:
 
-/usr/include/c++/4.8/cerrno:
+/usr/include/c++/4.9/cerrno:
 
 /usr/include/boost/config/abi_prefix.hpp:
 
@@ -2044,7 +2051,7 @@ compat.h:
 
 /usr/include/boost/date_time/c_time.hpp:
 
-/usr/include/c++/4.8/ctime:
+/usr/include/c++/4.9/ctime:
 
 /usr/include/boost/throw_exception.hpp:
 
@@ -2062,11 +2069,11 @@ compat.h:
 
 /usr/include/boost/config/no_tr1/memory.hpp:
 
-/usr/include/c++/4.8/memory:
+/usr/include/c++/4.9/memory:
 
-/usr/include/c++/4.8/bits/stl_raw_storage_iter.h:
+/usr/include/c++/4.9/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/4.8/backward/auto_ptr.h:
+/usr/include/c++/4.9/backward/auto_ptr.h:
 
 /usr/include/boost/checked_delete.hpp:
 
@@ -2082,7 +2089,7 @@ compat.h:
 
 /usr/include/boost/detail/sp_typeinfo.hpp:
 
-/usr/include/c++/4.8/typeinfo:
+/usr/include/c++/4.9/typeinfo:
 
 /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
 
@@ -2116,7 +2123,7 @@ compat.h:
 
 /usr/include/boost/config/no_tr1/cmath.hpp:
 
-/usr/include/c++/4.8/cmath:
+/usr/include/c++/4.9/cmath:
 
 /usr/include/math.h:
 
@@ -2196,9 +2203,9 @@ compat.h:
 
 /usr/include/boost/date_time/date_generators.hpp:
 
-/usr/include/c++/4.8/sstream:
+/usr/include/c++/4.9/sstream:
 
-/usr/include/c++/4.8/bits/sstream.tcc:
+/usr/include/c++/4.9/bits/sstream.tcc:
 
 /usr/include/boost/date_time/date_clock_device.hpp:
 
@@ -2228,7 +2235,7 @@ compat.h:
 
 /usr/include/boost/chrono/detail/static_assert.hpp:
 
-/usr/include/c++/4.8/climits:
+/usr/include/c++/4.9/climits:
 
 /usr/include/boost/mpl/logical.hpp:
 
@@ -2274,7 +2281,7 @@ compat.h:
 
 /usr/include/boost/date_time/posix_time/conversion.hpp:
 
-/usr/include/c++/4.8/cstring:
+/usr/include/c++/4.9/cstring:
 
 /usr/include/boost/date_time/gregorian/conversion.hpp:
 
@@ -2376,11 +2383,11 @@ compat.h:
 
 /usr/include/boost/thread/detail/is_convertible.hpp:
 
-/usr/include/c++/4.8/list:
+/usr/include/c++/4.9/list:
 
-/usr/include/c++/4.8/bits/stl_list.h:
+/usr/include/c++/4.9/bits/stl_list.h:
 
-/usr/include/c++/4.8/bits/list.tcc:
+/usr/include/c++/4.9/bits/list.tcc:
 
 /usr/include/boost/bind.hpp:
 
@@ -2418,19 +2425,19 @@ compat.h:
 
 /usr/include/boost/io_fwd.hpp:
 
-/usr/include/c++/4.8/locale:
+/usr/include/c++/4.9/locale:
 
-/usr/include/c++/4.8/bits/locale_facets_nonio.h:
+/usr/include/c++/4.9/bits/locale_facets_nonio.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/time_members.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/time_members.h:
 
-/usr/include/x86_64-linux-gnu/c++/4.8/bits/messages_members.h:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/messages_members.h:
 
 /usr/include/libintl.h:
 
-/usr/include/c++/4.8/bits/codecvt.h:
+/usr/include/c++/4.9/bits/codecvt.h:
 
-/usr/include/c++/4.8/bits/locale_facets_nonio.tcc:
+/usr/include/c++/4.9/bits/locale_facets_nonio.tcc:
 
 /usr/include/boost/functional/hash.hpp:
 
@@ -2452,15 +2459,15 @@ compat.h:
 
 /usr/include/boost/detail/container_fwd.hpp:
 
-/usr/include/c++/4.8/set:
+/usr/include/c++/4.9/set:
 
-/usr/include/c++/4.8/bits/stl_set.h:
+/usr/include/c++/4.9/bits/stl_set.h:
 
-/usr/include/c++/4.8/bits/stl_multiset.h:
+/usr/include/c++/4.9/bits/stl_multiset.h:
 
-/usr/include/c++/4.8/bitset:
+/usr/include/c++/4.9/bitset:
 
-/usr/include/c++/4.8/complex:
+/usr/include/c++/4.9/complex:
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
@@ -2572,7 +2579,7 @@ compat.h:
 
 /usr/include/boost/exception/detail/type_info.hpp:
 
-/usr/include/c++/4.8/iomanip:
+/usr/include/c++/4.9/iomanip:
 
 /usr/include/boost/exception/detail/error_info_impl.hpp:
 
@@ -2616,9 +2623,9 @@ compat.h:
 
 /usr/include/boost/detail/bitmask.hpp:
 
-/usr/include/c++/4.8/stack:
+/usr/include/c++/4.9/stack:
 
-/usr/include/c++/4.8/bits/stl_stack.h:
+/usr/include/c++/4.9/bits/stl_stack.h:
 
 /usr/include/boost/filesystem/convenience.hpp:
 
@@ -2632,7 +2639,7 @@ config/microcash-config.h:
 
 serialize.h:
 
-/usr/include/c++/4.8/cstdio:
+/usr/include/c++/4.9/cstdio:
 
 /usr/include/boost/tuple/tuple_comparison.hpp:
 

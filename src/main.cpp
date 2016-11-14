@@ -1170,17 +1170,7 @@ int GetNumBlocksOfPeers()
 
 bool IsInitialBlockDownload()
 {
-    if (pindexBest == NULL || nBestHeight < Checkpoints::GetTotalBlocksEstimate())
-        return true;
-    static int64 nLastUpdate;
-    static CBlockIndex* pindexLastBest;
-    if (pindexBest != pindexLastBest)
-    {
-        pindexLastBest = pindexBest;
-        nLastUpdate = GetTime();
-    }
-    return (GetTime() - nLastUpdate < 10 &&
-            pindexBest->GetBlockTime() < GetTime() - 24 * 60 * 60);
+    return false;
 }
 
 void static InvalidChainFound(CBlockIndex* pindexNew)
@@ -2210,7 +2200,7 @@ bool CBlock::AcceptBlock()
 	nVersion != (BLOCK_VERSION_QUARK   | BLOCK_VERSION_DEFAULT) &&
 	nVersion != (BLOCK_VERSION_SKEIN   | BLOCK_VERSION_DEFAULT) &&
         nVersion != (BLOCK_VERSION_QUBIT   | BLOCK_VERSION_DEFAULT) &&
-	nVersion != (BLOCK_VERSION_BLAKE   | BLOCK_VERSION_DEFAULT) &&
+//	nVersion != (BLOCK_VERSION_BLAKE   | BLOCK_VERSION_DEFAULT) &&
     	nVersion != BLOCK_VERSION_DEFAULT && nHeight > 0)
 
         return error("CheckBlock() : rejected nVersion");
@@ -4046,8 +4036,8 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int algo)
         case ALGO_QUBIT:
             pblock->nVersion |= BLOCK_VERSION_QUBIT;
             break;
-	case ALGO_BLAKE:
-	    pblock->nVersion |= BLOCK_VERSION_BLAKE;
+//	case ALGO_BLAKE:
+//	    pblock->nVersion |= BLOCK_VERSION_BLAKE;
 	    break;
         default:
             error("CreateNewBlock: bad algo");
@@ -4394,7 +4384,19 @@ void FormatHashBuffers(CBlock* pblock, char* pmidstate, char* pdata, char* phash
 
 bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 {
+
     int algo = pblock->GetAlgo();
+    if (algo == ALGO_SCRYPT)  { printf("Algo is Scrypt \n ");}
+    if (algo == ALGO_SHA256D) { printf("Algo is SHA256 \n");}
+    if (algo == ALGO_GROESTL)     { printf("Algo is Groestl \n");}
+    if (algo == ALGO_SKEIN)  { printf("Algo is Skein \n ");}
+    if (algo == ALGO_QUBIT) { printf("Algo is Qubit \n");}
+    if (algo == ALGO_X11)     { printf("Algo is X11 \n");}
+    if (algo == ALGO_X13)  { printf("Algo is X13 \n ");}
+    if (algo == ALGO_X15) { printf("Algo is X15 \n");}
+    if (algo == ALGO_QUARK)     { printf("Algo is Quark \n");}
+//    if (algo == ALGO_BLAKE) { printf("Algo is Blake \n"); }
+
     uint256 hashPoW = pblock->GetPoWHash(algo);
     uint256 hashTarget = CBigNum().SetCompact(pblock->nBits).getuint256();
 

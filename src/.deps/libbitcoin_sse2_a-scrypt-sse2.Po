@@ -5,7 +5,7 @@ libbitcoin_sse2_a-scrypt-sse2.o: scrypt-sse2.cpp \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -24,15 +24,15 @@ libbitcoin_sse2_a-scrypt-sse2.o: scrypt-sse2.cpp \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/openssl/sha.h \
  /usr/include/openssl/e_os2.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/emmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mm_malloc.h
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/mm_malloc.h
 
 /usr/include/stdc-predef.h:
 
@@ -52,7 +52,7 @@ scrypt.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
@@ -98,7 +98,7 @@ scrypt.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -114,10 +114,10 @@ scrypt.h:
 
 /usr/include/x86_64-linux-gnu/openssl/opensslconf.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/emmintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/emmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/xmmintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/xmmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/mmintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/mmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/mm_malloc.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/mm_malloc.h:

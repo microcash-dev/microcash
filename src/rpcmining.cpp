@@ -389,8 +389,8 @@ Value getblocktemplate(const Array& params, bool fHelp)
     if (vNodes.empty())
         throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "MicroCash is not connected!");
 
-    if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "MicroCash is downloading blocks...");
+    //if (IsInitialBlockDownload())
+    //    throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "MicroCash is downloading blocks...");
 
     static CReserveKey reservekey(pwalletMain);
 

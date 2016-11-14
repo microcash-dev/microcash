@@ -144,7 +144,7 @@ enum
     ALGO_X13	 = 6,
     ALGO_X15	 = 7,
     ALGO_QUARK	 = 8,
-    ALGO_BLAKE   = 9,
+//    ALGO_BLAKE   = 9,
     NUM_ALGOS
 };
 
@@ -153,28 +153,31 @@ extern CBigNum bnProofOfWorkLimit[NUM_ALGOS];
 enum
 {
     // primary version
-    BLOCK_VERSION_DEFAULT        = 2,
+    BLOCK_VERSION_DEFAULT        = 4,
 
     // algo
-    BLOCK_VERSION_ALGO           = (10 << 11),
-    BLOCK_VERSION_SCRYPT         = (1  << 11),
-    BLOCK_VERSION_GROESTL        = (2  << 11),
-    BLOCK_VERSION_SKEIN          = (3  << 11),
-    BLOCK_VERSION_QUBIT		 = (4  << 11),
-    BLOCK_VERSION_X11		 = (5  << 11),
-    BLOCK_VERSION_X13 		 = (6  << 11),
-    BLOCK_VERSION_X15		 = (7  << 11),
-    BLOCK_VERSION_QUARK		 = (8  << 11),
-    BLOCK_VERSION_BLAKE 	 = (9  << 11),
-    BLOCK_VERSION_SHA256D	 = (10 << 11),
+    BLOCK_VERSION_ALGO           = (7 << 9),
+    BLOCK_VERSION_SHA256D        = (0 << 9),
+    BLOCK_VERSION_GROESTL        = (1 << 9),
+
+    //
+    BLOCK_VERSION_SCRYPT	 = (2  << 9),
+    BLOCK_VERSION_SKEIN          = (3  << 9),
+    BLOCK_VERSION_QUBIT		 = (4  << 9),
+    BLOCK_VERSION_X11		 = (5  << 9),
+    BLOCK_VERSION_X13	 	 = (6  << 9),
+    BLOCK_VERSION_X15		 = (8  << 9),
+    BLOCK_VERSION_QUARK		 = (9  << 12),
+//    BLOCK_VERSION_BLAKE 	 = (9  << 12),
+
 };
 
 inline int GetAlgo(int nVersion)
 {
     switch (nVersion & BLOCK_VERSION_ALGO)
     {
-        case BLOCK_VERSION_SCRYPT:
-            return ALGO_SCRYPT;
+	case 1:
+	    return ALGO_SCRYPT;
         case BLOCK_VERSION_GROESTL:
             return ALGO_GROESTL;
         case BLOCK_VERSION_SHA256D:
@@ -191,8 +194,8 @@ inline int GetAlgo(int nVersion)
 	    return ALGO_X15;
 	case BLOCK_VERSION_QUARK:
 	    return ALGO_QUARK;
-	case BLOCK_VERSION_BLAKE:
-	    return ALGO_BLAKE;
+//	case BLOCK_VERSION_BLAKE:
+//	    return ALGO_BLAKE;
     }
     return ALGO_SCRYPT;
 }
@@ -211,8 +214,8 @@ inline std::string GetAlgoName(int Algo)
 	    return std::string("skein");
 	case ALGO_QUBIT:
 	    return std::string("qubit");
-	case ALGO_BLAKE:
-	    return std::string("blake");
+//	case ALGO_BLAKE:
+//	    return std::string("blake");
 	case ALGO_QUARK:
 	    return std::string("quark");
 	case ALGO_X11:
@@ -1023,8 +1026,8 @@ public:
                 return Hash(BEGIN(nVersion), END(nNonce));
 	    case ALGO_SKEIN:
          	return HashSkein(BEGIN(nVersion), END(nNonce));
-            case ALGO_BLAKE:
-                return HashBlake(BEGIN(nVersion), END(nNonce));
+//            case ALGO_BLAKE:
+//                return HashBlake(BEGIN(nVersion), END(nNonce));
             case ALGO_QUBIT:
                 return HashQubit(BEGIN(nVersion), END(nNonce));
 	    case ALGO_QUARK:

@@ -402,8 +402,8 @@ bool AppInit2()
 	miningAlgo = ALGO_SKEIN;
     else if (strAlgo == "qubit")
 	miningAlgo = ALGO_QUBIT;
-    else if (strAlgo == "blake")
-	miningAlgo = ALGO_BLAKE;
+//    else if (strAlgo == "blake")
+//	miningAlgo = ALGO_BLAKE;
 
     bnProofOfWorkLimit[ALGO_SHA256D] = CBigNum(~uint256(0) >> 20);
     bnProofOfWorkLimit[ALGO_SCRYPT]  = CBigNum(~uint256(0) >> 20);
@@ -414,7 +414,7 @@ bool AppInit2()
     bnProofOfWorkLimit[ALGO_QUARK]   = CBigNum(~uint256(0) >> 20);
     bnProofOfWorkLimit[ALGO_SKEIN]   = CBigNum(~uint256(0) >> 20);
     bnProofOfWorkLimit[ALGO_QUBIT]   = CBigNum(~uint256(0) >> 20);
-    bnProofOfWorkLimit[ALGO_BLAKE]   = CBigNum(~uint256(0) >> 20);
+//    bnProofOfWorkLimit[ALGO_BLAKE]   = CBigNum(~uint256(0) >> 20);
     // ********************************************************* Step 3: parameter-to-internal-flags
 
     fDebug = GetBoolArg("-debug");

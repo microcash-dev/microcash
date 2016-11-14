@@ -1,5 +1,5 @@
 libbitcoin_common_a-whirlpool.o: whirlpool.c /usr/include/stdc-predef.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h /usr/include/string.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -12,8 +12,8 @@ libbitcoin_common_a-whirlpool.o: whirlpool.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h sph_whirlpool.h sph_types.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
@@ -21,7 +21,7 @@ libbitcoin_common_a-whirlpool.o: whirlpool.c /usr/include/stdc-predef.h \
 
 /usr/include/stdc-predef.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include/stddef.h:
 
 /usr/include/string.h:
 
@@ -61,9 +61,9 @@ sph_whirlpool.h:
 
 sph_types.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
